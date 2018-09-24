@@ -2,7 +2,7 @@
 
 <h5>Prerequisite<h5>
 <ul>
-<li>Java 8</li>
+<li>Java 8(atleast 131 minor update)</li>
 <li>Maven 3.5.0</li>
 </ul>
 
