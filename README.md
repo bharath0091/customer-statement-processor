@@ -1,5 +1,12 @@
 # customer-statement-processor
 
+<h5>Prerequisite<h5>
+<ul>
+<li>Java 8</li>
+<li>Maven 3.5.0</li>
+</ul>
+
+
 <h5>Steps to run application<h5>
 <ul>
 <li>mvn install : to build the code</li>
