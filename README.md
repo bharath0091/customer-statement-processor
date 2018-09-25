@@ -1,5 +1,6 @@
 
-##Design details
+## Design details
+
 <ul>
 <li>The domain classes are Immutable including their fields like List</li>
 <li>Brought loose coupling bu applying <b>Principle of least Knoledge.</b> For Eg</b>
@@ -12,7 +13,7 @@
 <li>Used Functional programming</li>
 </ul>
 
-##Steps to run application
+## Steps to run application
 <ul>
 <li>mvn install : to build the code</li>
 <li>mvn spring-boot:run : to run the application</li>
