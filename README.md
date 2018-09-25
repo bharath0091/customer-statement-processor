@@ -5,9 +5,9 @@
 <li>The domain classes are Immutable including their fields like List</li>
 <li>Brought loose coupling bu applying <b>Principle of least Knoledge.</b> For Eg</b>
     <ul><li>The controller module interacts with other modules like validation, fileProcessor by only one 
-    interface. validation and fileProcessor modules are <b>Encapsulated</b> with thier specific responsibilities</li>
+    interface. validation and fileProcessor modules are <b>Encapsulated</b> with thier specific responsibilities.The hiding of module internals rule can even be further enforced with <b>Java 9 Module System</b>.</li>
     <li>Used least scope where possible to hide internals of a modules. For eg,  classes like BalanceValidation.Java have default scope, this means they can be seen only in their package.
-    The hiding of module internals rule can even be further enforced with <b>Java 9 Module System</b></li>
+    </li>
     </ul>
 </li>
 <li>Used Functional programming</li>
