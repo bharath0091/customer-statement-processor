@@ -1,14 +1,7 @@
-# customer-statement-processor
-
-## Version info
-<ul>
-<li>Java 8(atleast 131 minor update)</li>
-<li>Maven 3.5.0</li>
-</ul>
 
 ##Design details
 <ul>
-<li>The domain classes are Immutable including their fields</li>
+<li>The domain classes are Immutable including their fields like List</li>
 <li>Brought loose coupling bu applying <b>Principle of least Knoledge.</b> For Eg</b>
     <ul><li>The controller module interacts with other modules like validation, fileProcessor by only one 
     interface. validation and fileProcessor modules are <b>Encapsulated</b> with thier specific responsibilities</li>
@@ -25,4 +18,10 @@
 <li>mvn spring-boot:run : to run the application</li>
 <li>The API can be reached at http://localhost:8080/customer-statement</li>
 <li>Upload the CSV file as 'file' attribute in POST body </li>
+</ul>
+
+## Version info
+<ul>
+<li>Java 8(atleast 131 minor update)</li>
+<li>Maven 3.5.0</li>
 </ul>
